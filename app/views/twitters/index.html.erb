@@ -1,0 +1,31 @@
+
+<h1>Listing Twitters</h1>
+<%= link_to 'New Twitter', new_twitter_path %>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Body</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @twitters.each do |twitter| %>
+      <tr>
+        <td><%= twitter.user_id %></td>
+        <td><%= twitter.body %></td>
+        <td><%= link_to 'Show', twitter %></td>
+        <td><%= link_to 'Edit', edit_twitter_path(twitter) %></td>
+        <td><%= link_to 'Destroy', twitter, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+
+<p id="notice"><%= notice %></p>
+
