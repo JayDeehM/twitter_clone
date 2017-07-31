@@ -1,24 +1,11 @@
+# Twitter clone
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+This is an attempt on making a twitter clone with the use of scaffolding with ruby on rails. 
 
+# Features/Functions
 
-Welcome to your Rails project on Cloud9 IDE!
+Overall, the app is just basic with the most basic functions of tweeter.
 
-To get started, just do the following:
+However during the process, there were some issues that occured that made the development quite confusing. Because of this, I just decided to restart all over. The better version is in this link; https://github.com/JayDeehM/twitter_clone_newerest 
 
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://twitter-jaydeehm.c9users.io/).
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Please feel free to check out the better version. And if you would want to fix the problem in this repo, feel free to do so and just send a pull request. Thanks!
